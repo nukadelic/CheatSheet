@@ -1,12 +1,3 @@
-## Loading screen 
-
-* load scene by index `LoadingScreen.instance.Load( int );`
-* load scene by name `LoadingScreen.instance.Load( string );`
-* check progress `var p = LoadingScreen.instance.progress_value;`
-* note loading will not start if another scene is still loading, check via `bool b = LoadingScreen.instance.isLoading;`
-* stop current loading scene: `LoadingScreen.instance.Stop( () => { Debug.Log("stop complete"); } );`
-
-```cs
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -80,4 +71,3 @@ public class LoadingScreen : MonoBehaviour
         this.onStop = onStop;
     }
 }
-```
