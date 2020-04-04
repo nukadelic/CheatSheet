@@ -1,4 +1,4 @@
-
+```
 adb shell pm uninstall -k --user 0 <package_name>
 
 com.kddi.android.auhomelauncher
@@ -77,3 +77,4 @@ adb shell pm disable-user --user 0 <package_name>
 
 com.facebook.appmanager
 com.facebook.system
+```
